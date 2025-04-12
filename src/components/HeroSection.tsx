@@ -68,7 +68,7 @@ const HeroSection = () => {
             <div className="relative w-full lg:w-2/5 animate-float">
               <div className="bg-white p-6 rounded-xl shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                  src="/lovable-uploads/1e01f562-8ee5-400f-ab1d-f848c5a983e1.png" 
                   alt="Government Exam Preparation" 
                   className="w-full h-auto rounded-lg mb-4"
                 />
