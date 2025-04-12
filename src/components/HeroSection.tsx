@@ -3,6 +3,13 @@ import { ArrowRightIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="relative overflow-hidden bg-white">
       <div className="hero-gradient py-16 md:py-24 lg:py-32">
@@ -28,6 +35,7 @@ const HeroSection = () => {
                   variant="outline" 
                   size="lg" 
                   className="text-course-indigo border-course-indigo text-lg py-6 px-8"
+                  onClick={() => scrollToSection('curriculum')}
                 >
                   View Curriculum
                 </Button>
@@ -60,7 +68,7 @@ const HeroSection = () => {
             <div className="relative w-full lg:w-2/5 animate-float">
               <div className="bg-white p-6 rounded-xl shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
                   alt="Government Exam Preparation" 
                   className="w-full h-auto rounded-lg mb-4"
                 />

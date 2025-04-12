@@ -1,5 +1,5 @@
 
-import { FacebookIcon, InstagramIcon, TwitterIcon, YoutubeIcon } from "lucide-react";
+import { FacebookIcon, InstagramIcon, YoutubeIcon } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -12,16 +12,13 @@ const Footer = () => {
               Empowering students to achieve success in government exams through comprehensive courses, expert guidance, and innovative learning methodologies.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="https://www.facebook.com/TechNetConsultancy/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
                 <FacebookIcon className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white">
-                <TwitterIcon className="h-6 w-6" />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="https://www.instagram.com/technetconsultancy/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
                 <InstagramIcon className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="https://www.youtube.com/technetconsultancy" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
                 <YoutubeIcon className="h-6 w-6" />
               </a>
             </div>
