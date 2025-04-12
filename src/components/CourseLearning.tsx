@@ -36,7 +36,7 @@ const CourseLearning = () => {
     {
       icon: Clock,
       title: "Time Management Techniques",
-      description: "Learn our exclusive "90-second decision" method to maximize your score by spending the right amount of time on each question.",
+      description: "Learn our exclusive \"90-second decision\" method to maximize your score by spending the right amount of time on each question.",
       color: "yellow",
     },
   ];
