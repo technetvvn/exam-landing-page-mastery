@@ -1,5 +1,4 @@
-
-import { BookOpenIcon, BookIcon, ClockIcon, GlobeIcon, DevicesIcon, UsersIcon } from "lucide-react";
+import { BookOpenIcon, BookIcon, ClockIcon, GlobeIcon, Laptop, UsersIcon } from "lucide-react";
 
 const CourseDescription = () => {
   return (
@@ -70,7 +69,7 @@ const CourseDescription = () => {
               
               <div className="flex items-start">
                 <span className="bg-course-yellow/10 p-3 rounded-full mr-4">
-                  <DevicesIcon className="h-6 w-6 text-course-yellow" />
+                  <Laptop className="h-6 w-6 text-course-yellow" />
                 </span>
                 <div>
                   <h3 className="font-semibold text-gray-900">Multi-device Access</h3>
